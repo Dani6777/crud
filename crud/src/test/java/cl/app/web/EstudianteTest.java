@@ -3,10 +3,15 @@ package cl.app.web;
 
 import cl.app.web.entity.Estudiante;
 import org.junit.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+@SpringBootTest
 public class EstudianteTest {
+
+
 
     @Test
     public void testEstudinte(){

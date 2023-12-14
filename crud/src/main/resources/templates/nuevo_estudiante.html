@@ -15,9 +15,16 @@
                     <div class="form-group">
                         <label>Nombre:</label>
                         <input type="text" name="nombre" th:field="*{nombre}" class="form-control" placeholder="Nombre del estudiante" />
-                    </div>
 
-                    <button type="submit" class="btn btn-primary">Registrar</button>
+                        <label>Apellido:</label>
+                        <input type="text" name="apellido" th:field="*{apellido}" class="form-control" placeholder="Apellido del estudiante" />
+
+                        <label>Correo:</label>
+                        <input type="text" name="email" th:field="*{correo}" class="form-control" placeholder="Correo del estudiante" />
+                    </div>
+                    <div class="box-footer">
+                        <button type="submit" class="btn btn-primary">Registrar</button>
+                    </div>
                 </form>
             </div>
         </div>
